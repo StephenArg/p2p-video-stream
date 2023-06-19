@@ -11,7 +11,9 @@
     "sourceType": "module"
   },
   "plugins": ["react-hooks"],
-  "rules": {},
+  "rules": {
+    "react/react-in-jsx-scope": 0
+  },
   "settings": {
     "react": {
       "version": "17.0"
